@@ -2,7 +2,7 @@ Name: cpj
 
 Cartridge-Short-Name: cpj
 Cartridge-Version: '0.0.1'
-Cartridge-Vendor: mp
+Cartridge-Vendor: mpiech
 
 Display-Name: Clojure (1.7) Compojure
 Description: "Clojure / Compojure cartridge"
@@ -14,9 +14,10 @@ Categories:
   - service
   - web_framework
   - clojure
+  - compojure
 
 Provides:
-  - clojure-1.5.1
+  - clojure-1.7
   - clojure
 
 Scaling:

@@ -14,8 +14,8 @@
 
 (defn -main [& args]
   (let [ip (get (System/getenv) 
-                "OPENSHIFT_CLOJURE_HTTP_IP" "0.0.0.0")
+                "OPENSHIFT_CPJ_HTTP_IP" "0.0.0.0")
         port (Integer/parseInt 
               (get (System/getenv) 
-                   "OPENSHIFT_CLOJURE_HTTP_PORT" "8080"))]
+                   "OPENSHIFT_CPJ_HTTP_PORT" "8080"))]
     (run-jetty app {:host ip :port port})))
